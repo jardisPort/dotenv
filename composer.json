@@ -1,0 +1,39 @@
+{
+    "name": "jardisport/dotenv",
+    "version": "1.0.0",
+    "description": "This package provides dotenv interface for a domain driven design approach",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Jardis Core Development",
+            "email": "jardisCore@headgent.dev"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.0.4",
+        "squizlabs/php_codesniffer": "^3.11.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "JardisPort\\DotEnv\\": "src/"
+        }
+    },
+    "homepage": "https://github.com/jardisPort/dotenv",
+    "support": {
+        "issues": "https://github.com/jardisPort/detenv/issues",
+        "email": "jardisCore@headgent.dev"
+    },
+    "keywords": [
+        "dotenv",
+        "interfaces",
+        "JardisPort",
+        "Headgent",
+        "DDD"
+    ]
+}
