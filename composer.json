@@ -1,0 +1,38 @@
+{
+    "name": "jardisport/dotenv",
+    "description": "Environment loader interface with public and private loading modes",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Jardis Development",
+            "email": "jardisDev@headgent.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^2.0.4",
+        "squizlabs/php_codesniffer": "^3.11.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "JardisPort\\DotEnv\\": "src/"
+        }
+    },
+    "homepage": "https://github.com/jardisPort/dotenv",
+    "support": {
+        "issues": "https://github.com/jardisPort/dotenv/issues",
+        "email": "jardisCore@headgent.dev"
+    },
+    "keywords": [
+        "dotenv",
+        "interfaces",
+        "JardisPort",
+        "Headgent",
+        "DDD"
+    ]
+}
